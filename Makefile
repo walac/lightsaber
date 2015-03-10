@@ -33,7 +33,7 @@ sync:
 	./repo sync
 
 install:
-	./repo init -u https://github.com/fxos/lightsaber.git
+	./repo init -u https://github.com/walac/lightsaber.git
 
 clean:
 	$(foreach app, $(APPS), $(clean_app)) \
